@@ -1,7 +1,30 @@
 {
-  "name": "CocosDemo",
+  "name": "cocosdemo",
   "uuid": "412db9bd-e2c0-44b2-8184-087d3ca38645",
   "creator": {
     "version": "3.8.4"
+  },
+  "version": "1.0.0",
+  "description": "Cocos Creator demo project study.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint assets --ext .ts",
+    "lint:fix": "eslint assets --ext .ts --fix",
+    "format": "prettier --check assets",
+    "format:fix": "prettier --write assets",
+    "check": "npm run format && npm run lint"
+  },
+  "keywords": [],
+  "author": "0xB",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "prettier": "^3.8.1"
   }
 }
