@@ -1,0 +1,23 @@
+{
+  /* Base configuration. Do not edit this field. */
+  "extends": "./temp/tsconfig.cocos.json",
+
+  /* Add your custom configuration here. */
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": false,
+    "types": [
+      "node",
+      "cc"
+    ]
+  },
+
+  "include": [
+    "assets/**/*.ts",
+    "temp/declarations/**/*.d.ts"
+  ]
+}
